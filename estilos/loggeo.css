@@ -1,10 +1,16 @@
 #parte_superior {
-  position: relative;
+  position: fixed;
   width: 100%;
   height: 115px;
   left: 0px;
   top: 0px;
   background: linear-gradient(180deg, #e68804 0%, #d14a3b 100%);
+}
+.bloque_relleno {
+  position: relative;
+  width: 100%;
+  height: 105px;
+  background-color: #e68804;
 }
 #img_menu {
   position: absolute;
