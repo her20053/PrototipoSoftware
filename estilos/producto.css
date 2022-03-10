@@ -1,0 +1,227 @@
+#parte_superior{
+
+    position: relative;
+    width: 100%;
+    height: 115px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, #E68804 0%, #D14A3B 100%);
+
+}
+#img_menu{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+#barra_conjunto{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 1%;
+    top: 35px;
+}
+#img_lupa{
+    position: relative;
+    left: -35px;
+    top: 0px
+}
+#img_perfil{
+    position: absolute;
+    top: 35%;
+    right: 5%;
+}
+
+#bloque1{
+
+    position: relative;
+    margin-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+
+}
+#img_latorre{
+
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 20%;
+    width: 80%;
+
+}
+#info_entrega{
+    position: relative;
+    color: #7D7D7D;
+    top: 30%;
+    left: 10%;
+}
+#costo_entrega{
+    position: relative;
+    color: #7D7D7D;
+    top: 45%;
+    left: -43%;
+}
+#boton_agregar{
+
+    position: relative;
+    height: 20%;
+    width: 15%;
+    background: linear-gradient(180deg, #E68804 0%, #D14A3B 100%);
+    border-radius: 5px;
+    left: 75%;
+    top: 22%;
+}
+#mas{
+    position: relative;
+    top: 20%;
+    left: 30%;
+}
+#rectangulo_footer{
+
+    position: relative;
+    background: linear-gradient(180deg, #E68804 0%, #D14A3B 100%);
+    width: 100%;
+    height:80px;
+    position: fixed;
+    bottom: 0;
+}
+#rectangulo_footer img{
+
+    position: relative;
+    height: 35%;
+    fill: white;
+    top: 30%;
+    left: 10%;
+
+}
+#bloque1{
+
+    position: relative;
+    margin-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+
+}
+#img_salchichas{
+    position: relative;
+    left: -30%;
+    display: block;
+    bottom: -15px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#info_producto{
+    position: relative;
+    left: 37%;
+    bottom: 80px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #7D7D7D;
+}
+#info_peso{
+    position: relative;
+    left: 0%;
+    bottom: 60px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #7D7D7D;
+
+}
+#marca_1{
+    position: relative;
+    left: -24%;
+    bottom: 35px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #7D7D7D;
+
+}
+#precio1{
+    position: relative;
+    left: 9%;
+    bottom: 75px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #7D7D7D;
+    font-size: 20px;
+
+}
+
+#boton_agregar1{
+    position: relative;
+    width: 22%;
+    height: 25px;
+    left: 75%;
+    bottom: 8px;
+    background: linear-gradient(180deg, #E68804 0%, #D14A3B 100%);
+    border-radius: 15%;
+
+}
+#texto_agregar{
+    position: relative;
+    left: 15%;
+    bottom: -10%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: white;
+
+    
+}
+#boton_mas{
+    position: relative;
+    width: 12%;
+    height: 24px;
+    left: 35%;
+    bottom: 32px;
+    background: linear-gradient(180deg, #E68804 0%, #D14A3B 100%);
+    border-radius: 10px 0px 0px 10px;
+
+
+}
+#contenido_b{
+    position: relative;
+    bottom: -1%;
+    left: 40%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+
+}
+
+#boton_menos{
+    position: relative;
+    width: 12%;
+    height: 24px;
+    left: 55%;
+    bottom: 56px;
+    background: linear-gradient(180deg, #E68804 0%, #D14A3B 100%);
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+#text_unidades1{
+    position: relative;
+    width: 8%;
+    height: 24px;
+    left: 47%;
+    bottom: 80px;
+    background-color:white;
+}
+#contenido_1{
+    position: relative;
+    bottom: -10%;
+    left: 40%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+}
