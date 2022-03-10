@@ -12,6 +12,16 @@
   height: 105px;
   background-color: #e68804;
 }
+#segundo.bloque_relleno {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  background-color: #e68804;
+}
+footer {
+  position: absolute;
+  left: 0;
+}
 #img_menu {
   position: absolute;
   top: 35%;
