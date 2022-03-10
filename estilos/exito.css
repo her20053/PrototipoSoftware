@@ -1,4 +1,4 @@
-#cuerpo {
+body {
     /*Posición del body es absoluta y el bacground es un gradiente que va de naranja a rojo*/
     position: absolute;
     background: -webkit-gradient(linear, left top, left bottom, from(#E68804), to(#D14A3B)) fixed;
