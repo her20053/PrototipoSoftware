@@ -3,7 +3,7 @@ html { background-color: #000; }
 body {
     min-height: 200vh;
     max-width: 390px;
-    background-color: yellow; 
+    background-color: white; 
     margin: 0 0;
 }
 
@@ -83,14 +83,22 @@ header {
     top: 75px;
 }
 
-.parte-media {
-    display: inline-flex;
+.columna1 {
+    position: absolute;
+    left: 4%;
+
+}
+
+.columna2 {
+    position: absolute;
+    right: 4%;
+
 }
 
 .imagenes {
     border-radius: 15px;
-    width: 40%;
-    height: 550px;
+    width: 170px;
+    height: 170px;
 }
 
 .descripcion {
@@ -106,10 +114,4 @@ header {
     Vertical-align: Top;
     color: #7D7D7D;
 
-}
-
-.frutas {
-    position: relative;
-    margin-left: auto;
-    right: 0;
 }
