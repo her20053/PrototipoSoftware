@@ -3,7 +3,7 @@ html { background-color: #000; }
 body {
     min-height: 100vh;
     max-width: 400px;
-    background-color: yellow; 
+    background-color: white; 
     margin: 0 auto;
 }
 
@@ -17,14 +17,14 @@ body {
 }
 
 #atras {
-    position: relative;
+    position: absolute;
     left: 8%;
     top: 35px;
 
 }
 
 #lupa {
-    position: relative;
+    position: absolute;
     left: 85%;
     top: 35px;
 }
@@ -39,7 +39,7 @@ body {
 }
 
 #titulo {
-    position: relative;
+    position: absolute;
     top: -15px;
     left: 8%;
     font-weight: 600;
@@ -54,8 +54,8 @@ body {
 }
 
 #info {
-    position: relative;
-    top: -45px;
+    position: absolute;
+    top: 50px;
     left: 8%;
     font-family: Roboto;
     font-style:  regular;
@@ -67,22 +67,59 @@ body {
     color: #7D7D7D;
 }
 
+#bookmark {
+    position: relative;
+    left: 85%;
+    top: 35px;
+}
+
+#list {
+    position: relative;
+    left: 80%;
+    top: 75px;
+}
+
 .imagenes {
-    border-radius: 10px;
-    width: 60%;
-    height: 140px;
+    border-radius: 15px;
+    width: 65%;
+    height: 170px;
+}
+
+.descripcion {
+    text-decoration: underline;
+    text-decoration-color: white;
+    font-weight: 600;
+    font-family: Roboto;
+    font-style:  Bold;
+    font-size: 18px;
+    line-height: 23px;
+    line-height: 100%;
+    text-align: Left;
+    Vertical-align: Top;
+    color: #7D7D7D;
+
 }
 
 .embutidos {
     position: relative;
-    top: 190px;
+    top: 220px;
+    left: 10%;
 }
 
-#embutidos-carnicos {
+.frutas {
     position: relative;
-    top: 0;
+    top: -28px;
+    left: 80%;
 }
 
-#embutidos {
-    text-decoration: none;
+.panaderia {
+    position: relative;
+    top: 0px;
+    left: 10%;
+}
+
+.huevos {
+    position: relative;
+    top: -229px;
+    left: 80%;
 }
