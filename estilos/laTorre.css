@@ -1,22 +1,19 @@
 html { background-color: #000; } 
 
 body {
-    min-height: 200vh;
-    max-width: 400px;
+    min-height: 275vh;
+    max-width: 390px;
     background-color: white; 
-    margin: 0 auto;
+    margin: 0 0;
 }
 
 header {
-    position: fixed;
-    top: 0;
     width: 100%;
-    height: 200px;
 }
 
 .parte_superior {
     position: fixed;
-    width: 390px;
+    width: 100%;
     height: 115px;
     left: 0px;
     top: 0px;
@@ -38,7 +35,7 @@ header {
 
 .informacion {
     position: fixed;
-    width: 390px;
+    width: 100%;
     height: 125px;
     top: 80px;
     background-color: white;
@@ -86,12 +83,21 @@ header {
     top: 75px;
 }
 
-footer {
-    width: 100%;
+.columna1 {
+    position: absolute;
+    left: 4%;
+
 }
+
+.columna2 {
+    position: absolute;
+    right: 4%;
+
+}
+
 .imagenes {
     border-radius: 15px;
-    width: 65%;
+    width: 170px;
     height: 170px;
 }
 
@@ -108,40 +114,4 @@ footer {
     Vertical-align: Top;
     color: #7D7D7D;
 
-}
-
-.embutidos {
-    position: relative;
-    top: 220px;
-    left: 10%;
-}
-
-.frutas {
-    position: relative;
-    top: -28px;
-    left: 80%;
-}
-
-.panaderia {
-    position: relative;
-    top: 0px;
-    left: 10%;
-}
-
-.huevos {
-    position: relative;
-    top: -229px;
-    left: 80%;
-}
-
-.mariscos {
-    position: relative;
-    top: -210px;
-    left: 10%;
-}
-
-.aceite {
-    position: relative;
-    top: -440px;
-    left: 80%;
 }
