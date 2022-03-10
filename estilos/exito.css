@@ -1,0 +1,17 @@
+#cuerpo {
+    /*Posición del body es absoluta y el bacground es un gradiente que va de naranja a rojo*/
+    position: absolute;
+    background: -webkit-gradient(linear, left top, left bottom, from(#E68804), to(#D14A3B)) fixed;
+}
+
+
+/*El texto es un título que está alineado al centro, tiene color blanco, su posición es fixed a la mitad de la pantalla y que tiene una transformación del 50%*/
+
+h1 {
+    text-align: center;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
