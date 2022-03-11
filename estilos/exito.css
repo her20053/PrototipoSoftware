@@ -15,6 +15,7 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+<<<<<<< Updated upstream
 }
 
 #atras {
@@ -23,4 +24,7 @@ h1 {
     top: 75px;
     height: 60px;
     width: 60px;
+=======
+    font-size: 80px;
+>>>>>>> Stashed changes
 }
